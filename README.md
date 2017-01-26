@@ -1,6 +1,6 @@
-# electron-quick-start
+# electron-uploadcare-quick-start
 
-**Clone and run for a quick way to see Electron in action.**
+**Clone and run for a quick way to see Electron and Uploadcare together in action.**
 
 This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start) within the Electron documentation.
 
@@ -13,28 +13,25 @@ A basic Electron application needs just these files:
 - `index.html` - A web page to render. This is the app's **renderer process**.
 
 You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start).
-
+To find out more about Uploadcare widget component please see [Uploadcare QuickStart](https://uploadcare.com/quick_start).
 ## To Use
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/uploadcare/electron-uploadcare-quick-start
 # Go into the repository
-cd electron-quick-start
+cd electron-uploadcare-quick-start
 # Install dependencies
 npm install
+# Install widget dependency
+npm install uploadcare-widget
 # Run the app
 npm start
 ```
 
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/).
-
-## Other Example Apps
-
-For more example apps, see the
-[list of boilerplates](http://electron.atom.io/community/#boilerplates)
-created by the awesome electron community.
+Learn more about Uploadcare and its API [here](https://uploadcare.com/documentation/).
 
 #### License [CC0 1.0 (Public Domain)](LICENSE.md)

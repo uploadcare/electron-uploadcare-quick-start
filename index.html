@@ -10,10 +10,14 @@
     We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
+
+  <input type='hidden' role='uploadcare-uploader' data-public-key='demopublickey' />
+
   </body>
 
   <script>
     // You can also require other files to run in this process
     require('./renderer.js')
+    var uploadcare = require('uploadcare-widget');
   </script>
 </html>
